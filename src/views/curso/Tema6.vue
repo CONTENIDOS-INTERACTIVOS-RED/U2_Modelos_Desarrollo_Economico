@@ -78,7 +78,7 @@ export default {
   data() {
     return {
       cuestionario: {
-        tema: 'Herramientas colaborativas para la construcción de paz',
+        tema: 'Índice de GINI: medición de la desigualdad económica y su relación con el desarrollo',
         titulo: 'Ponte a prueba',
         introduccion:
           'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
@@ -86,156 +86,152 @@ export default {
         preguntas: [
           {
             id: 1,
-            texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+            texto: '¿Cuál de las siguientes opciones describe mejor el PIB de un país?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
+                texto: 'El valor total de los bienes y servicios producidos en un año',
                 esCorrecta: true,
               },
               {
+                id: 'b',
+                texto: 'La cantidad de dinero circulante en la economía nacional',
+                esCorrecta: false,
+              },
+              {
                 id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto: 'El nivel de inversión extranjera directa en un periodo',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto: 'La suma de exportaciones e importaciones en un año',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto: '¡Correcto! El PIB refleja la producción económica de un país en un periodo, siendo un indicador clave del crecimiento y la actividad económica.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 2,
-            texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+            texto: '¿Cómo se define la inflación en términos económicos?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
+                texto: 'El crecimiento de la base monetaria en un sistema financiero',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
-                esCorrecta: true,
+                texto: 'El aumento de la inversión extranjera en un país en desarrollo',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
+                texto: 'La variación de la oferta y demanda en mercados internacionales',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
-                esCorrecta: false,
+                texto: 'El incremento sostenido y generalizado de los precios de bienes y servicios',
+                esCorrecta: true,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto: '¡Muy bien! La inflación mide el aumento del costo de vida, afectando el poder adquisitivo y la estabilidad económica de los consumidores y empresas.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 3,
-            texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+            texto: '¿Qué representa la tasa de desempleo en una economía?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
+                texto: 'El nivel de productividad de la fuerza laboral empleada',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
-                esCorrecta: true,
+                texto: 'La cantidad de trabajadores contratados en un periodo específico',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Determinar la culpabilidad',
-                esCorrecta: false,
+                texto: 'El porcentaje de la población económicamente activa sin empleo',
+                esCorrecta: true,
               },
               {
                 id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                texto: 'La diferencia entre empleo formal e informal en un país',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto: '¡Estupendo! La tasa de desempleo refleja la disponibilidad de trabajo y la eficiencia del mercado laboral, impactando el bienestar social y el crecimiento económico.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto: '¿Qué función cumplen las tasas de interés en la economía?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
+                texto: 'Controlan el flujo de importaciones y exportaciones',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
+                texto: 'Determinan el costo del dinero en préstamos y ahorros',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
+                texto: 'Fijan el precio de los productos básicos en los mercados',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto: 'Regulan la cantidad de billetes emitidos por el banco central',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto: '¡Excelente! Las tasas de interés influyen en el acceso al crédito, la inversión y el consumo, afectando directamente la actividad económica y la estabilidad financiera.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 5,
-            texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+            texto: '¿Qué expresa la tasa de cambio en una economía?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
+                texto: 'El valor de una moneda en relación con otra divisa',
                 esCorrecta: true,
               },
               {
+                id: 'b',
+                texto: 'El precio promedio de bienes importados en el país',
+                esCorrecta: false,
+              },
+              {
                 id: 'c',
-                texto: 'Castigar a las partes involucradas',
+                texto: 'La variación de la inflación en un año determinado',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto: 'El nivel de ingresos generados por exportaciones',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto: '¡Correcto! La tasa de cambio impacta el comercio internacional y la competitividad, afectando costos de importaciones, exportaciones y la estabilidad financiera de un país.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
         ],
