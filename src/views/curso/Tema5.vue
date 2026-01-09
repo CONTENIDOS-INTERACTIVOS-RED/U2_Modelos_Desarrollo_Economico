@@ -91,7 +91,7 @@
             .div(titulo="Tasa de cambio real")(data-aos="fade-up")
               p.mb-4 Mide el poder adquisitivo de una moneda en comparación con otra, considerando los niveles de precios en ambos países. Se utiliza para analizar la competitividad de un país en términos de comercio exterior.<br><br><b>Fórmula:</b>
               p.mb-4.ms-4.ms-xl-5 TCR = Tasa de cambio nominal x Índice de precios nacional / Índice de precios extranjero
-              span <b></b>Mide el poder adquisitivo de una moneda en comparación con otra, considerando los niveles de precios en ambos países. Se utiliza para analizar la competitividad de un país en términos de comercio exterior.<br><br><b>Ejemplo.</b> Si el tipo de cambio nominal es <b>1 USD = 4,000 COP</b>, pero la inflación en Colombia es mayor que en EE.UU., la tasa de cambio real ajustada reflejará que los bienes importados pueden resultar más costosos en términos reales.
+              p <b>Ejemplo.</b> Si el tipo de cambio nominal es <b>1 USD = 4,000 COP</b>, pero la inflación en Colombia es mayor que en EE.UU., la tasa de cambio real ajustada reflejará que los bienes importados pueden resultar más costosos en términos reales.
             .div(titulo="Tasa de cambio fija")(data-aos="fade-up")
               p En este sistema, el gobierno o el banco central, establece un tipo de cambio determinado y lo mantiene estable mediante la intervención en el mercado de divisas. Para ello, compra o vende moneda extranjera para mantener el valor dentro de un rango establecido.<br><br><b>Ejemplo.</b> Un país decide fijar su tipo de cambio en <b>1 USD = 3,500 COP</b> y el Banco de la República interviene comprando o vendiendo dólares, para evitar fluctuaciones en el valor del peso.
 
@@ -133,8 +133,8 @@
           .row
             .col-12.col-md-6.col-lg-8
               p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://doi.org/10.7440/res64.2018.03") Candelo-Viafara, J. M., & Oviedo-Gómez, A. (2021). La tasa de cambio y sus impactos en los agregados económicos colombianos: una aproximación FAVAR. Revista Facultad de Ciencias Económicas: Investigación y Reflexión, 29(2), 121-142.
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://www.redalyc.org/journal/909/90969428008/90969428008.pdf") Candelo-Viafara, J. M., & Oviedo-Gómez, A. (2021). La tasa de cambio y sus impactos en los agregados económicos colombianos: una aproximación FAVAR. Revista Facultad de Ciencias Económicas: Investigación y Reflexión, 29(2), 121-142.
               p.d-flex.my-4
                 img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
                 a.text-small.text-primary(target="_blank", href="https://youtu.be/4nKi44x1JHg?si=v7hlt51KQkyNRGQX") [Vídeo] Precios y tasas de cambio.

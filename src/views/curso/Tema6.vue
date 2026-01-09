@@ -78,7 +78,8 @@ export default {
   data() {
     return {
       cuestionario: {
-        tema: 'Índice de GINI: medición de la desigualdad económica y su relación con el desarrollo',
+        tema:
+          'Índice de GINI: medición de la desigualdad económica y su relación con el desarrollo',
         titulo: 'Ponte a prueba',
         introduccion:
           'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
@@ -86,18 +87,21 @@ export default {
         preguntas: [
           {
             id: 1,
-            texto: '¿Cuál de las siguientes opciones describe mejor el PIB de un país?',
+            texto:
+              '¿Cuál de las siguientes opciones describe mejor el PIB de un país?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'El valor total de los bienes y servicios producidos en un año',
+                texto:
+                  'El valor total de los bienes y servicios producidos en un año',
                 esCorrecta: true,
               },
               {
                 id: 'b',
-                texto: 'La cantidad de dinero circulante en la economía nacional',
+                texto:
+                  'La cantidad de dinero circulante en la economía nacional',
                 esCorrecta: false,
               },
               {
@@ -111,7 +115,8 @@ export default {
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Correcto! El PIB refleja la producción económica de un país en un periodo, siendo un indicador clave del crecimiento y la actividad económica.',
+            mensaje_correcto:
+              '¡Correcto! El PIB refleja la producción económica de un país en un periodo, siendo un indicador clave del crecimiento y la actividad económica.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
@@ -122,26 +127,31 @@ export default {
             opciones: [
               {
                 id: 'a',
-                texto: 'El crecimiento de la base monetaria en un sistema financiero',
+                texto:
+                  'El crecimiento de la base monetaria en un sistema financiero',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'El aumento de la inversión extranjera en un país en desarrollo',
+                texto:
+                  'El aumento de la inversión extranjera en un país en desarrollo',
                 esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'La variación de la oferta y demanda en mercados internacionales',
+                texto:
+                  'La variación de la oferta y demanda en mercados internacionales',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'El incremento sostenido y generalizado de los precios de bienes y servicios',
+                texto:
+                  'El incremento sostenido y generalizado de los precios de bienes y servicios',
                 esCorrecta: true,
               },
             ],
-            mensaje_correcto: '¡Muy bien! La inflación mide el aumento del costo de vida, afectando el poder adquisitivo y la estabilidad económica de los consumidores y empresas.',
+            mensaje_correcto:
+              '¡Muy bien! La inflación mide el aumento del costo de vida, afectando el poder adquisitivo y la estabilidad económica de los consumidores y empresas.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
@@ -152,26 +162,31 @@ export default {
             opciones: [
               {
                 id: 'a',
-                texto: 'El nivel de productividad de la fuerza laboral empleada',
+                texto:
+                  'El nivel de productividad de la fuerza laboral empleada',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'La cantidad de trabajadores contratados en un periodo específico',
+                texto:
+                  'La cantidad de trabajadores contratados en un periodo específico',
                 esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'El porcentaje de la población económicamente activa sin empleo',
+                texto:
+                  'El porcentaje de la población económicamente activa sin empleo',
                 esCorrecta: true,
               },
               {
                 id: 'd',
-                texto: 'La diferencia entre empleo formal e informal en un país',
+                texto:
+                  'La diferencia entre empleo formal e informal en un país',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Estupendo! La tasa de desempleo refleja la disponibilidad de trabajo y la eficiencia del mercado laboral, impactando el bienestar social y el crecimiento económico.',
+            mensaje_correcto:
+              '¡Estupendo! La tasa de desempleo refleja la disponibilidad de trabajo y la eficiencia del mercado laboral, impactando el bienestar social y el crecimiento económico.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
@@ -192,16 +207,19 @@ export default {
               },
               {
                 id: 'c',
-                texto: 'Fijan el precio de los productos básicos en los mercados',
+                texto:
+                  'Fijan el precio de los productos básicos en los mercados',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Regulan la cantidad de billetes emitidos por el banco central',
+                texto:
+                  'Regulan la cantidad de billetes emitidos por el banco central',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Excelente! Las tasas de interés influyen en el acceso al crédito, la inversión y el consumo, afectando directamente la actividad económica y la estabilidad financiera.',
+            mensaje_correcto:
+              '¡Excelente! Las tasas de interés influyen en el acceso al crédito, la inversión y el consumo, afectando directamente la actividad económica y la estabilidad financiera.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
@@ -231,7 +249,8 @@ export default {
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Correcto! La tasa de cambio impacta el comercio internacional y la competitividad, afectando costos de importaciones, exportaciones y la estabilidad financiera de un país.',
+            mensaje_correcto:
+              '¡Correcto! La tasa de cambio impacta el comercio internacional y la competitividad, afectando costos de importaciones, exportaciones y la estabilidad financiera de un país.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
         ],

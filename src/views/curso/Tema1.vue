@@ -102,7 +102,7 @@
         .row
           .col-12.col-md-6.col-lg-8
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a.text-small.text-primary(target="_blank", href="https://www.redalyc.org/articulo.oa?id=479553173007") Chaves Castro, Á. H. (2017). Análisis de los ciclos del producto interno bruto agropecuario colombiano 1976-2013. Revista Apuntes del CENES, 36(63), 169-209.
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")

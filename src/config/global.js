@@ -146,7 +146,8 @@ export default {
         nombreRuta: 'tema6',
         icono: 'far fa-file-alt',
         numero: '6',
-        titulo: '',
+        titulo:
+          'Índice de GINI: medición de la desigualdad económica y su relación con el desarrollo',
         desarrolloContenidos: true,
         subMenu: [],
       },

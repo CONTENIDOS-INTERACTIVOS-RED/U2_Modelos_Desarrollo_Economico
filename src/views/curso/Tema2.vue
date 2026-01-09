@@ -165,8 +165,8 @@
           .row
             .col-12.col-md-6.col-lg-8
               p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://www.redalyc.org/articulo.oa?id=30121105") Dabus, C., & Viego, V. (2003). Inflación, precios relativos y crecimiento: Evidencia de América Latina. Estudios de Economía Aplicada, 21(1), 91-107.
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://www.redalyc.org/pdf/301/30121105.pdf") Dabus, C., & Viego, V. (2003). Inflación, precios relativos y crecimiento: Evidencia de América Latina. Estudios de Economía Aplicada, 21(1), 91-107.
               p.d-flex.my-4
                 img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
                 a.text-small.text-primary(target="_blank", href="https://youtu.be/_gm9eSzBAVA?si=xS_HkxZyzlFFG3xk") [Vídeo] Cómo se mide la inflación.
